@@ -1,6 +1,7 @@
 {
   "name": "cadens-cookbook",
   "version": "0.1.0",
+  "homepage": "https://cadmcgee.github.io/Cadens-Cookbook/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "gh-pages -d build",
+    "deploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
